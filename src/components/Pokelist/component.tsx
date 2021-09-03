@@ -30,7 +30,7 @@ export default function Pokelist({ list, search }: PokelistProps) {
                   />
                ))
             ) : (
-               <h1>👎🏼 🔍 Sem resultados para sua pesquisa </h1>
+               <h1>👎🏼 🔍 No results for your search </h1>
             )}
          </Container>
       </>
