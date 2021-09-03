@@ -1,6 +1,5 @@
 # Pokédex
 
-> Desafio Front-end Novatics
 
 ## Link em produção
 
