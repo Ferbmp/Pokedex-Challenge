@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-title-in-document-head */
 /* eslint-disable @next/next/no-document-import-in-page */
 /* eslint-disable react/display-name */
 import React from "react";
@@ -44,6 +45,8 @@ export default class MyDocument extends Document {
       return (
          <Html lang='pt'>
             <Head>
+               <title>Pokédex</title>
+
                <meta charSet='utf-8' />
                <link rel='preconnect' href='https://fonts.googleapis.com' />
 
@@ -52,7 +55,7 @@ export default class MyDocument extends Document {
                   rel='stylesheet'
                />
 
-               <link rel='icon' href='https://rocketseat.com.br/favicon.ico' />
+               <link rel='icon' href='favicon.ico' />
             </Head>
             <body>
                <Main />

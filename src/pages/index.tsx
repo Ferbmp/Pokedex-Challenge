@@ -1,5 +1,6 @@
 import axios from "axios";
 import type { GetStaticProps } from "next";
+
 import { useState } from "react";
 import Header from "../components/Header/component";
 import Pokelist from "../components/Pokelist/component";
