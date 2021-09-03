@@ -32,7 +32,6 @@ interface HomeProps {
    data: Pokemon[];
 }
 export default function Home({ data }: HomeProps) {
-   console.log(data);
    const [searchValue, setSearchValue] = useState("");
    return (
       <>

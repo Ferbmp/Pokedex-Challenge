@@ -14,7 +14,6 @@ export default function Pokelist({ list, search }: PokelistProps) {
          pokemon.name?.toLowerCase().indexOf(search) > -1 ||
          pokemon.num?.toLowerCase().indexOf(search) > -1
    );
-   console.log("filteredList", filteredList);
 
    return (
       <>
